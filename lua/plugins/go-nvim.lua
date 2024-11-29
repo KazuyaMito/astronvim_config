@@ -9,12 +9,5 @@ return {
   ft = { "go", "gomod" },
   build = ':lua require("go.install").update_all_sync()',
   opts = {
-    goimports = "gopls",
-    lsp_cfg = true,
-    lsp_gofumpt = false,
-    lsp_keymaps = false,
-    lsp_inlay_hints = {
-      enable = false,
-    },
   },
 }
