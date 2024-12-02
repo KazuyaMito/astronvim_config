@@ -15,6 +15,7 @@ return {
   { import = "astrocommunity.pack.vue" },
   { import = "astrocommunity.pack.markdown" },
   { import = "astrocommunity.pack.proto" },
+  { import = "astrocommunity.pack.sql" },
   { import = "astrocommunity.editing-support/chatgpt-nvim" },
   { import = "astrocommunity.editing-support/auto-save-nvim" },
   { import = "astrocommunity.completion/copilot-lua-cmp" },

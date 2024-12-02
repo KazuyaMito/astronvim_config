@@ -13,6 +13,14 @@ return {
         hide_by_name = { ".git", ".vscode", ".DS_Store", "thumbs.db" },
         never_show = {},
       },
+      default_component_configs = {
+        file_size = {
+          enabled = false,
+        },
+        type = {
+          enabled = false,
+        },
+      },
     },
   },
 }
