@@ -62,10 +62,6 @@ return {
               compositeLiteralFields = true,
               constantValues = true,
             },
-            format = {
-              goimports = true,
-              tabWidth = 4,
-            },
           }
         }
       }
