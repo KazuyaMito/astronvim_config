@@ -66,7 +66,6 @@ return {
               goimports = true,
               tabWidth = 4,
             },
-            experimentalWorkspaceModule = true,
           }
         }
       }
