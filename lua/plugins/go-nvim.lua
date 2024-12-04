@@ -9,5 +9,6 @@ return {
   ft = { "go", "gomod" },
   build = ':lua require("go.install").update_all_sync()',
   opts = {
+    gofmt = "goimports",
   },
 }
