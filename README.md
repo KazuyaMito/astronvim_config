@@ -32,3 +32,28 @@ git clone https://github.com/<your_user>/<your_repository> ~/.config/nvim
 ```shell
 nvim
 ```
+
+#### custom_functions configuration
+```lua
+local config = {
+    base_dir = "/path/to/base/dir",
+    --- Set the directory you want to display by digging the hierarchy from the base directory.
+    custom_paths = {
+        {
+            name = "path name",
+            path = "path/to/custom/dir",
+        },
+    },
+    --- Set the directory you want to display by executing the command.
+    add_paths = {
+        {
+            name = "path name",
+            path_command = "vim.fn.stdpath('config') .. '/lua'"
+        },
+        {
+            name = "path name2",
+            path_command = "os.getenv('HOME')"
+        },
+    },
+}
+```
